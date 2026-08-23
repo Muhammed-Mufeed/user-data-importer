@@ -1,28 +1,29 @@
-# AI Rules & Master Task Plans (Private)
-GEMINI.md
-TASK_PLAN.md
-
-
-# Environment Variables & Secrets
+# Environment Variables
 .env
 .env.local
+.env.*.local
+backend/.env
 
-# Dependency Directories
-/vendor/
+# Composer Dependencies (Vendor)
 /backend/vendor/
-/node_modules/
+vendor/
+
+# Node Dependencies
 /frontend/node_modules/
+node_modules/
 
-# Build & Dist Outputs
-/dist/
-/frontend/dist/
-
-# Logs & Temporary Files
-*.log
+# Test & Coverage Outputs
 .phpunit.result.cache
+/coverage/
 
-# IDE & OS System Files
-.vscode/
+# IDE and OS
 .idea/
+.vscode/
+*.swp
+*.swo
 .DS_Store
 Thumbs.db
+
+# Project Internal Blueprints (as specified in TASK_PLAN.md)
+GEMINI.md
+TASK_PLAN.md
