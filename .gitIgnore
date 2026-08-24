@@ -14,6 +14,8 @@ node_modules/
 
 # Test & Coverage Outputs
 .phpunit.result.cache
+.phpunit.cache/
+backend/.phpunit.cache/
 /coverage/
 
 # IDE and OS
