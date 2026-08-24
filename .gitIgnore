@@ -25,7 +25,3 @@ backend/.phpunit.cache/
 *.swo
 .DS_Store
 Thumbs.db
-
-# Project Internal Blueprints (as specified in TASK_PLAN.md)
-GEMINI.md
-TASK_PLAN.md
